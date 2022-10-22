@@ -2,7 +2,7 @@ function load(){
     var msg = document.querySelector('#msg')
     var img = document.querySelector('#imgd')
     var data = new Date()
-    var hora =  21//data.getHours() 
+    var hora = data.getHours() 
     
     msg.innerHTML= `Agora são ${hora} horas.`
     if(hora >= 0 && hora < 12){
